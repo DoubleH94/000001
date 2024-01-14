@@ -5,7 +5,10 @@
 */
 #include<stdio.h>
 //#include<string.h>
-
+/**
+ * https://www.acmicpc.net/board/view/133392#post
+ * https://stackoverflow.com/questions/3082914/c-compile-error-variable-sized-object-may-not-be-initialized
+*/
 int main(){
     int t,cnt=0;
     scanf("%d",&t);
