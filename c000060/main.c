@@ -1,14 +1,16 @@
 /*
 * Language : C11, Korean, English
 * last modified : 2024.01.18
-* From : BAEKJOON24262
+* From : BAEKJOON24264
 */
+
 #include<stdio.h>
 
 int main(){
-    int n=0;
+    long long n=0;
 
-    scanf("%d",&n);
-    printf("1\n0");
+    scanf("%lld",&n);
+    printf("%lld\n2\n",n*n);
+
     return 0;
 }
